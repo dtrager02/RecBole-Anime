@@ -10,4 +10,4 @@ This repository contains all the code required to train a recommender system eff
 - setup.ipynb: Data preprocessing
 - train_wab.py: Model training loop, using Weights & Biases for hyperparameter tuning and evaluation
 - side_info.py: Calculates side information that can be used to augment recommendations (shown not to improve MultiVAE much)
-- rating_setup2.py: Preprocessing script to clean dataset (remvoe uncommon users and items, detect obvious bot accounts, label data, filter invalid records, convert username string sot integers)
+- rating_setup2.py: Preprocessing script to clean dataset (remvoe uncommon users and items, detect obvious bot accounts, label data, filter invalid records, convert username strings to integers)
